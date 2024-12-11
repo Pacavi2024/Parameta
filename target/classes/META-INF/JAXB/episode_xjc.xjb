@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="3.0" xmlns="https://jakarta.ee/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por Eclipse Implementation of JAXB v3.0.0 
+Visite https://eclipse-ee4j.github.io/jaxb-ri 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2024.12.10 a las 04:29:00 PM COT 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://parameta.com/empleados">
+    <schemaBindings map="false">
+      <package name="com.parameta.empleados"/>
+    </schemaBindings>
+    <bindings scd="tns:guardarEmpleadoRequest">
+      <class ref="com.parameta.empleados.GuardarEmpleadoRequest"/>
+    </bindings>
+    <bindings scd="~tns:empleado">
+      <class ref="com.parameta.empleados.Empleado"/>
+    </bindings>
+    <bindings scd="tns:guardarEmpleadoResponse">
+      <class ref="com.parameta.empleados.GuardarEmpleadoResponse"/>
+    </bindings>
+  </bindings>
+</bindings>
+
